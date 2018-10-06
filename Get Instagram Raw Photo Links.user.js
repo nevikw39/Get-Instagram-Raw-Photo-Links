@@ -6,6 +6,8 @@
 // @author       nevikw39
 // @match        https://www.instagram.com/
 // @grant        none
+// @downloadURL  https://github.com/nevikw39/Get-Instagram-Raw-Photo-Links/raw/master/Get%20Instagram%20Raw%20Photo%20Links.user.js
+// @updateURL  https://github.com/nevikw39/Get-Instagram-Raw-Photo-Links/raw/master/Get%20Instagram%20Raw%20Photo%20Links.user.js
 // ==/UserScript==
 
 (function() {
