@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Get Instagram Raw Photo Links
 // @namespace    http://kevinweng.tk/
-// @version      1.2
+// @version      1.2.1
 // @description  Get Instagram Raw Photo Links
 // @author       nevikw39
 // @match        https://www.instagram.com/*
@@ -18,10 +18,9 @@
         if(e.target.className=="_9AhH0") {
             var url = e.target.previousSibling.childNodes[0].getAttribute("src");
             GM_setClipboard (url);
-            GM_notification("The following link has been copied : " + url, "Link is Copied :))", url, function() {
+            GM_notification("The following link has been copied  successfully : " + url, "Link is Copied :))", url, function() {
                 GM_openInTab(url,false);
             });
         }
     })
-    document.getElementBy
 })();
